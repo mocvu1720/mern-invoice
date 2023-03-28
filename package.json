@@ -1,0 +1,40 @@
+{
+  "name": "mern-invoice",
+  "version": "1.0.0",
+  "description": "An invoicing web app build with the MERN STACK",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/dist/server.js",
+    "dev": "nodemon --exec ts-node backend/src/server.ts"
+  },
+  "keywords": [
+    "Invoice",
+    "Mern"
+  ],
+  "author": "Alpha Ogilo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^5.2.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^6.7.0",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "typescript": "^5.0.2",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.15.10",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}
