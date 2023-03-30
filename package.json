@@ -5,8 +5,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "build": "tsc",
     "start": "node backend/dist/server.js",
-    "dev": "nodemon --exec ts-node --esm backend/src/server.ts"
+    "dev": "nodemon --watch \"backend/src/**\" --ext \"ts,json\" --ignore \"backend/src/**/*.spec.ts\" --exec \"ts-node --esm backend/src/server.ts\""
   },
   "keywords": [
     "Invoice",
