@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node backend/dist/server.js",
-    "dev": "nodemon --watch \"backend/src/**\" --ext \"ts,json\" --ignore \"backend/src/**/*.spec.ts\" --exec \"ts-node --esm backend/src/server.ts\""
+    "dev": "nodemon --watch \"backend/src/**\" --ext \"ts,json\" --exec \"ts-node --esm backend/src/server.ts\""
   },
   "keywords": [
     "Invoice",
@@ -22,12 +22,15 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
+    "express-mongo-sanitize": "^2.2.0",
     "express-rate-limit": "^6.7.0",
     "handlebars": "^4.7.7",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.3",
     "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1",
     "typescript": "^5.0.2",
+    "validator": "^13.9.0",
     "winston": "^3.8.2",
     "winston-daily-rotate-file": "^4.7.1"
   },
