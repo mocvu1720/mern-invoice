@@ -35,9 +35,11 @@
     "winston-daily-rotate-file": "^4.7.1"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/cookie-parser": "^1.4.3",
     "@types/morgan": "^1.9.4",
     "@types/node": "^18.15.10",
+    "@types/validator": "^13.7.14",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1"
   }
